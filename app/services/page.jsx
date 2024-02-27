@@ -1,4 +1,5 @@
 import Services from '@/components/Services'
+import Services2 from '@/components/Services2'
 
 async function fetchRehabservices() {
     const res = await fetch("https://reqres.in/api/users")
@@ -10,7 +11,10 @@ async function fetchRehabservices() {
     const services = await fetchRehabservices()
 
     return (
+      <>
       <Services services={services} />
+      <Services2 />
+      </>
     )
 }
 

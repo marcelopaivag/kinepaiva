@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Services({ services }) {
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-5 mb-5 ml-5 mr-5">
             {services.map((service) => (
                 <Link key={service.id} href={`/services/${service.id}`}>
                     <div className="bg-gray-200 shadow-md rounded-md overflow-hidden flex flex-col items-center p-4 hover:shadow-lg">

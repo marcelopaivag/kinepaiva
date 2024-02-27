@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="es">
       <body>
         <NavBar />
-        <main className="container mx-auto flex justify-center">
+        <main>
           {children}
         </main>
       </body>

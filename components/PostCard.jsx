@@ -6,6 +6,7 @@ import React from 'react'
 const PostCard = ({ post }) => {
     return (
         <div className='bg-gray-950 p-10'>
+            <img src={post.image} alt={post.title} />
             <Link href={`/blog/${post.id}`}>
                 <h3 className='text-xl font-bold mb-4'>
                     {post.id}. {post.title}

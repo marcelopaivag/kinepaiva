@@ -1,7 +1,8 @@
 "use client"
-import React from 'react'
+import { useRouter } from "next/navigation"
 
 const page = () => {
+  const router = useRouter()
   return (
     <>
       <p className='mt-7'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.

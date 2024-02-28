@@ -8,16 +8,15 @@ const About = () => {
 
             <div className="grid md:grid-cols-2">
 
-                <div className="md:col-span-1 radius w-full h-full">
+                <div className="bg-teal-500">
                     <Image
                         src={Uno}
                         alt="Kinepaiva Image"
                     />
                 </div>
 
-
-                <div className="md:col-span-1 radius w-full h-full">
-                    <div className="bg-teal-500 p-10 mb-10">
+                <div>
+                    <div className="bg-teal-500 p-10 mb-10 h-full">
                         <h2 className="mb-2 text-xl">Rehabilitación con sentido</h2>
                         <p className='mb-4'>Mi enfoque especializado como osteópata y magister en terapia manual ortopédica me ha
                             permitido destacarme en el tratamiento del dolor musculoesquelético y las lesiones

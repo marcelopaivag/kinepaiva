@@ -2,129 +2,94 @@ import React from 'react'
 
 const Services2 = () => {
     return (
-        <>
-            {/* Primer contenedor */}
-            <div className="container">
-                {/* Fila */}
-                <div className="row">
-                    <div className="col-sm-12">
-                        <div className="main-lead mb-80">
-                            <h3 className="mb-10">Who Are We.</h3>
-                            <p>Next is an efficient and talented team of designers and developers of information.</p>
-                        </div>
+        <div className="container flex flex-col">
+
+            <div className="flex flex-col ">
+                <h3 className="mb-2">Rehabilitación con sentido</h3>
+                <p className='mb-4'>Con ejercicio terapéutico, educación y fisioterapia
+                    soy el encargado de asistrir una recuperación de la que tú debes ser protagonista.</p>
+            </div>
+
+            <div className="md:col-span-1 img-content radius w-full">
+                <div className="img-block h-full">
+                    <div className="background-img">
+                        <img alt="Imagen servicios" src="{Image}" />
                     </div>
                 </div>
-                {/* Fin de la fila */}
             </div>
-            {/* Fin del primer contenedor */}
 
-            {/* Segundo contenedor */}
-            <div className="container inline-content split-container">
-                {/* Fila */}
-                <div className="row">
-                    <div className="col-md-8 img-content radius">
-                        <div className="img-block">
-                            <div className="background-img">
-                                <img alt="" src="img/site/1.jpg" />
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-7 col-md-push-5 intro-content push-right">
-                        <div className="inner-content">
-                            <h2 className="mb-10">We Are a Digital Agency.</h2>
-                            <p>Next is an interactive communication agency specialized in website design, print support, which do not have secret anymore for us. We deliver our clients the best products in the domain which we master best. Our team brings a very specific value to your projects.</p>
-                            <a className="plus-btn" href="about.html"><i className="icon-plus"></i></a>
-                        </div>
+            <div className="grid md:grid-cols-2 gap-4">
+
+                <div className="md:col-span-1 intro-content text-center push-right">
+                    <div className="inner-content">
+                        <img alt="Imagen servicios" src="{Image}" />
+                        <h2 className="mb-2">Ejercicio terapéutico</h2>
+                        <p className='mb-4'>Actualmente el ejercicio terapéutico es el tratamiento que cuenta con mayor
+                            evidencia científica, el kinesiólogo debe ser un profesional capacitado para establecer un
+                            diagnóstico funcional y una prescripción de ejercicio terapéutico para lograr una disminución de
+                            la discapacidad funcional, efectiva y segura.
+                        </p>
+
+                        <a href="about.html" className="flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-md hover:bg-blue-700">
+                            Ver más
+                            <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                            </svg>
+                        </a>
+
                     </div>
                 </div>
-                {/* Fin de la fila */}
-            </div>
-            {/* Fin del segundo contenedor */}
 
-            {/* Línea horizontal */}
-            <hr className="mt-100 mb-100" />
+                <div className="md:col-span-1 intro-content text-center push-right">
+                    <div className="inner-content">
+                        <img alt="Imagen servicios" src="{Image}" />
+                        <h2 className="mb-2">Terapia manual ortopédica</h2>
+                        <p className='mb-4'>La TMO es un enfoque especializado en kinesiología musculoesquelética que se
+                            centra en el tratamiento de lesiones y trastornos relacionados con los músculos y las
+                            articulaciones. Los profesionales en este campo utilizan técnicas manuales, como el masaje
+                            terapéutico, la manipulación articular y el estiramiento, para mejorar la movilidad, aliviar el
+                            dolor y promover la función normal de las estructuras musculoesqueléticas.
+                        </p>
 
-            {/* Tercer contenedor */}
-            <div className="container">
-                {/* Fila */}
-                <div className="row">
-                    <div className="col-sm-12">
-                        <div className="main-lead mb-80">
-                            <h3 className="mb-10">What We Do.</h3>
-                            <p>Our work with clients has always been at the intersection of deep industry expertise and extensive capabilities.</p>
-                        </div>
+                        <a href="about.html" className="flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-md hover:bg-blue-700">
+                            Ver más
+                            <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                            </svg>
+                        </a>
+
                     </div>
                 </div>
-                {/* Fin de la fila */}
-            </div>
-            {/* Fin del tercer contenedor */}
 
-            {/* Cuarto contenedor */}
-            <div className="container inline-content">
-                {/* Fila */}
-                <div className="row">
-                    <div className="col-sm-4">
-                        {/* Caja 1 */}
-                        <div className="box">
-                            <div className="box-img">
-                                <img src="img/site/2.jpg" alt="" />
-                            </div>
-                            <div className="box-content">
-                                <h3 className="mb-5">Digital Business </h3>
-                                <p>Digital business is the creation of new business designs by blurring the digital...</p>
-                            </div>
-                            <a className="link" href="services.html"></a>
-                            <a className="more" href="services.html">
-                                <span>
-                                    <i className="icon-plus"></i>
-                                </span>
-                            </a>
-                        </div>
-                        {/* Fin de la Caja 1 */}
-                    </div>
-                    <div className="col-sm-4">
-                        {/* Caja 2 */}
-                        <div className="box">
-                            <div className="box-img">
-                                <img src="img/site/3.jpg" alt="" />
-                            </div>
-                            <div className="box-content">
-                                <h3 className="mb-5">Mobile Development </h3>
-                                <p>Mobile application development is a term used to denote the act or process by which...</p>
-                            </div>
-                            <a className="link" href="services.html"></a>
-                            <a className="more" href="services.html">
-                                <span>
-                                    <i className="icon-plus"></i>
-                                </span>
-                            </a>
-                        </div>
-                        {/* Fin de la Caja 2 */}
-                    </div>
-                    <div className="col-sm-4">
-                        {/* Caja 3 */}
-                        <div className="box">
-                            <div className="box-img">
-                                <img src="img/site/4.jpg" alt="" />
-                            </div>
-                            <div className="box-content">
-                                <h3 className="mb-5">Apps Development </h3>
-                                <p>As part of the development process, mobile user interface design is also essential...</p>
-                            </div>
-                            <a className="link" href="services.html"></a>
-                            <a className="more" href="services.html">
-                                <span>
-                                    <i className="icon-plus"></i>
-                                </span>
-                            </a>
-                        </div>
-                        {/* Fin de la Caja 3 */}
+                <div className="md:col-span-1 intro-content text-center push-right">
+                    <div className="inner-content">
+                        <img alt="Imagen servicios" src="{Image}" />
+                        <h2 className="mb-2">Fisioterapia</h2>
+                        <p className='mb-4'>El kinesiólogo es el único profesional no médico, con formación universitaria,
+                            capacitado para aplicar los diferentes medios y técnicas terapéuticas con agentes físicos no
+                            ionizantes. Esto refiere a la utilización de corriente eléctrica o energía mecánica para
+                            acelerar procesos de recuperación, aliviar el dolor y mejorar la funcionalidad en
+                            procesos de rehabilitación física o para mantener la salud.
+                        </p>
+                        <a href="about.html" className="flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-blue-500 rounded-md hover:bg-blue-700">
+                            Ver más
+                            <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
-                {/* Fin de la fila */}
+
+
+
+
+
+
+
             </div>
-            {/* Fin del cuarto contenedor */}
-        </>)
+
+        </div>
+    )
 }
 
 export default Services2

@@ -1,28 +1,35 @@
 import React from 'react'
+import Image from 'next/image'
+import Uno from '@/public/images/1.jpg'
+
 
 const Services2 = () => {
     return (
-        <div className="container flex flex-col">
-
-            <div className="flex flex-col ">
-                <h3 className="mb-2">Rehabilitación con sentido</h3>
-                <p className='mb-4'>Con ejercicio terapéutico, educación y fisioterapia
-                    soy el encargado de asistrir una recuperación de la que tú debes ser protagonista.</p>
-            </div>
+        <div className="flex flex-col items-center justify-center align-items">
 
             <div className="md:col-span-1 img-content radius w-full">
                 <div className="img-block h-full">
                     <div className="background-img">
-                        <img alt="Imagen servicios" src="{Image}" />
+                        <Image
+                            src={Uno}
+                            alt=""
+                            layout="responsive"
+                            width={500}
+                            height={300}
+                        />
                     </div>
                 </div>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-4">
+            <div className="grid md:grid-cols-3 gap-6 mt-5">
 
-                <div className="md:col-span-1 intro-content text-center push-right">
-                    <div className="inner-content">
-                        <img alt="Imagen servicios" src="{Image}" />
+                <div className="md:col-span-1 text-center">
+                    <div>
+                        <Image
+                            className='w-40 h-40 object-cover rounded-full mx-auto mb-4'
+                            src={Uno}
+                            alt="Texto alternativo"
+                        />
                         <h2 className="mb-2">Ejercicio terapéutico</h2>
                         <p className='mb-4'>Actualmente el ejercicio terapéutico es el tratamiento que cuenta con mayor
                             evidencia científica, el kinesiólogo debe ser un profesional capacitado para establecer un
@@ -40,9 +47,13 @@ const Services2 = () => {
                     </div>
                 </div>
 
-                <div className="md:col-span-1 intro-content text-center push-right">
-                    <div className="inner-content">
-                        <img alt="Imagen servicios" src="{Image}" />
+                <div className="md:col-span-1 text-center">
+                    <div>
+                        <Image
+                            className='w-40 h-40 object-cover rounded-full mx-auto mb-4'
+                            src={Uno}
+                            alt="Texto alternativo"
+                        />
                         <h2 className="mb-2">Terapia manual ortopédica</h2>
                         <p className='mb-4'>La TMO es un enfoque especializado en kinesiología musculoesquelética que se
                             centra en el tratamiento de lesiones y trastornos relacionados con los músculos y las
@@ -61,9 +72,13 @@ const Services2 = () => {
                     </div>
                 </div>
 
-                <div className="md:col-span-1 intro-content text-center push-right">
-                    <div className="inner-content">
-                        <img alt="Imagen servicios" src="{Image}" />
+                <div className="md:col-span-1 text-center">
+                    <div>
+                        <Image
+                            className='w-40 h-40 object-cover rounded-full mx-auto mb-4'
+                            src={Uno}
+                            alt="Texto alternativo"
+                        />
                         <h2 className="mb-2">Fisioterapia</h2>
                         <p className='mb-4'>El kinesiólogo es el único profesional no médico, con formación universitaria,
                             capacitado para aplicar los diferentes medios y técnicas terapéuticas con agentes físicos no

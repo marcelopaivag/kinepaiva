@@ -9,14 +9,13 @@ export async function GET() {
 }
 
 export async function POST(request) {
-    const { name, lastname, phone, mail, dateTime } = await request.json()
+    const { name, lastname, phone, mail } = await request.json()
     const newCite = await prisma.cite.create({
         data: {
             name,
             lastname,
             phone,
             mail,
-            dateTime
         }
     })
     return NextResponse.json(newCite)

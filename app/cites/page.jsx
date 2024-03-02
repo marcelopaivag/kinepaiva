@@ -1,6 +1,9 @@
 "use client"
+import { useRouter } from "next/navigation"
 
 const page = () => {
+
+  const router = useRouter()
 
   const onSubmit = async (e) => {
     e.preventDefault()
@@ -8,11 +11,10 @@ const page = () => {
     const lastname = e.target.lastname.value;
     const phone = e.target.phone.value;
     const mail = e.target.mail.value;
-    const dateTime = e.target.dateTime.value;
 
     const res = await fetch('api/cites', {
       method: 'POST',
-      body: JSON.stringify({ name, lastname, phone, mail, dateTime }),
+      body: JSON.stringify({ name, lastname, phone, mail }),
       headers: {
         'Content-Type': 'application/json'
       }
@@ -20,9 +22,7 @@ const page = () => {
     const data = await res.json()
     console.log(data)
 
-
-
-
+    router.push("/")
   }
 
 
@@ -51,7 +51,7 @@ const page = () => {
         <div className="w-full px-3">
           <label htmlFor="phone">Teléfono:</label>
           <input
-            type="number"
+            type="tel"
             id="phone"
             name="phone"
             className="border-2 border-gray-300 rounded p-2 mb-6 w-full text-black"
@@ -63,15 +63,6 @@ const page = () => {
             type="email"
             id="mail"
             name="mail"
-            className="border-2 border-gray-300 rounded p-2 mb-6 w-full text-black"
-          />
-        </div>
-        <div className="w-full px-3">
-          <label htmlFor="dateTime">Fecha y hora:</label>
-          <input
-            type="datetime-local"
-            id="dateTime"
-            name="dateTime"
             className="border-2 border-gray-300 rounded p-2 mb-6 w-full text-black"
           />
         </div>

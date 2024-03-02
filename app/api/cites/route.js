@@ -4,8 +4,8 @@ import { prisma } from '@/libs/prisma'
 
 export async function GET() {
 
-    const cites = await prisma.cite.findMany()
-    return NextResponse.json(cites)
+    const getCites = await prisma.cite.findMany()
+    return NextResponse.json(getCites)
 }
 
 export async function POST(request) {

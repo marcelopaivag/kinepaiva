@@ -1,5 +1,5 @@
-Kinepaiva
-Sitio web de Marcelo Paiva Gómez, Kinesiólogo y Osteópata
+Kinepaiva <br>
+Sitio web de Marcelo Paiva Gómez, Kinesiólogo y Osteópata<br>
 
 Tecnologías utilizadas
 React: Framework de JavaScript para la creación de interfaces de usuario interactivas.

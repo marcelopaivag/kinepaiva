@@ -25,8 +25,8 @@ const page = () => {
     router.push("/")
   }
 
-
   return (
+    <>
     <form className="container mx-auto max-w-lg" onSubmit={onSubmit}>
       <h2 className="text-2xl font-bold mb-8">Reserva tu hora</h2>
       <div className="flex flex-wrap -mx-3">
@@ -73,6 +73,15 @@ const page = () => {
         </div>
       </div>
     </form>
+
+    <p className='mt-7'>Envíanos tus datos y nos pondrémos en contacto contigo para reservar tu cita</p>
+      <button className='bg-sky-400 px-3 py-2 rounded-md'
+        onClick={() => {
+          router.push('/')
+        }}>
+        Volver al inicio
+      </button>
+    </>    
   )
 }
 

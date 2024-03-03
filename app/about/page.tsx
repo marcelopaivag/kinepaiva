@@ -3,6 +3,7 @@
 import About from '@/components/About';
 import { useRouter } from 'next/navigation';
 import AboutHero from '@/components/AboutHero';
+import Map from '@/components/Map';
 
 const AboutPage = () => {
   const router = useRouter()
@@ -10,6 +11,7 @@ const AboutPage = () => {
     <>
       <AboutHero />
       <About />
+      <Map />
     </>
   )
 }

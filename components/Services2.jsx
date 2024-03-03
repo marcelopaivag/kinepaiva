@@ -1,25 +1,16 @@
 import React from 'react'
 import Image from 'next/image'
 import Uno from '@/public/images/1.jpg'
+import ejercicio2 from '@/public/images/ejercicio2.png'
+import ejercicio3 from '@/public/images/ejercicio3.png'
+import tmo from '@/public/images/tmo.png'
+import tr1 from '@/public/images/tr1.png'
+
 
 
 const Services2 = () => {
     return (
         <div className="flex flex-col items-center justify-center align-items">
-
-            <div className="md:col-span-1 img-content radius w-full">
-                <div className="img-block h-full">
-                    <div className="background-img">
-                        <Image
-                            src={Uno}
-                            alt=""
-                            layout="responsive"
-                            width={500}
-                            height={300}
-                        />
-                    </div>
-                </div>
-            </div>
 
             <div className="grid md:grid-cols-3 gap-6 mt-5">
 
@@ -27,7 +18,7 @@ const Services2 = () => {
                     <div>
                         <Image
                             className='w-40 h-40 object-cover rounded-full mx-auto mb-4'
-                            src={Uno}
+                            src={ejercicio3}
                             alt="Texto alternativo"
                         />
                         <h2 className="mb-2">Ejercicio terapéutico</h2>
@@ -51,7 +42,7 @@ const Services2 = () => {
                     <div>
                         <Image
                             className='w-40 h-40 object-cover rounded-full mx-auto mb-4'
-                            src={Uno}
+                            src={tmo}
                             alt="Texto alternativo"
                         />
                         <h2 className="mb-2">Terapia manual ortopédica</h2>
@@ -76,7 +67,7 @@ const Services2 = () => {
                     <div>
                         <Image
                             className='w-40 h-40 object-cover rounded-full mx-auto mb-4'
-                            src={Uno}
+                            src={tr1}
                             alt="Texto alternativo"
                         />
                         <h2 className="mb-2">Fisioterapia</h2>
@@ -95,11 +86,19 @@ const Services2 = () => {
                     </div>
                 </div>
 
-
-
-
-
-
+                <div className="md:col-span-1 img-content radius w-full">
+                    <div className="img-block h-full">
+                        <div className="background-img">
+                            <Image
+                                src={ejercicio2}
+                                alt=""
+                                layout="responsive"
+                                width={500}
+                                height={300}
+                            />
+                        </div>
+                    </div>
+                </div>
 
             </div>
 

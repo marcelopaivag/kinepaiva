@@ -1,12 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import Uno from '@/public/images/1.jpg'
 import ejercicio2 from '@/public/images/ejercicio2.png'
 import ejercicio3 from '@/public/images/ejercicio3.png'
 import tmo from '@/public/images/tmo.png'
 import tr1 from '@/public/images/tr1.png'
-
-
 
 const Services2 = () => {
     return (
@@ -14,10 +11,10 @@ const Services2 = () => {
 
             <div className="grid md:grid-cols-3 gap-6 mt-5">
 
-                <div className="md:col-span-1 text-center">
+                <div className="bg-blue-900 shadow-md rounded p-4 md:col-span-1 text-center">
                     <div>
                         <Image
-                            className='w-40 h-40 object-cover rounded-full mx-auto mb-4'
+                            className='w-40 h-40 object-cover rounded-full mx-auto'
                             src={ejercicio3}
                             alt="Texto alternativo"
                         />
@@ -38,7 +35,7 @@ const Services2 = () => {
                     </div>
                 </div>
 
-                <div className="md:col-span-1 text-center">
+                <div className="bg-blue-900 shadow-md rounded p-4 md:col-span-1 text-center">
                     <div>
                         <Image
                             className='w-40 h-40 object-cover rounded-full mx-auto mb-4'
@@ -63,7 +60,7 @@ const Services2 = () => {
                     </div>
                 </div>
 
-                <div className="md:col-span-1 text-center">
+                <div className="bg-blue-900 shadow-md rounded p-4 md:col-span-1 text-center">
                     <div>
                         <Image
                             className='w-40 h-40 object-cover rounded-full mx-auto mb-4'
@@ -85,21 +82,18 @@ const Services2 = () => {
                         </a>
                     </div>
                 </div>
+            </div>
 
-                <div className="md:col-span-1 img-content radius w-full">
-                    <div className="img-block h-full">
-                        <div className="background-img">
-                            <Image
-                                src={ejercicio2}
-                                alt=""
-                                layout="responsive"
-                                width={500}
-                                height={300}
-                            />
-                        </div>
+            <div className="md:col-span-1 img-content radius w-full mt-3">
+                <div className="img-block h-full">
+                    <div className="background-img">
+                        <Image
+                            src={ejercicio2}
+                            alt=""
+                            layout="responsive"
+                        />
                     </div>
                 </div>
-
             </div>
 
         </div>

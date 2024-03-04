@@ -1,17 +1,18 @@
 import React from 'react'
 import Image from 'next/image'
-import Uno from '@/public/images/1.jpg'
+import kinepaiva from '@/public/images/kinepaiva.png'
 
 const About = () => {
     return (
         <div className="flex flex-col items-center justify-center">
 
-            <div className="grid md:grid-cols-2">
+            <div className="flex grid lg:grid-cols-2">
 
                 <div className="bg-teal-500">
                     <Image
-                        src={Uno}
+                        src={kinepaiva}
                         alt="Kinepaiva Image"
+                        layout="responsive"
                     />
                 </div>
 

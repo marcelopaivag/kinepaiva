@@ -4,7 +4,7 @@ import About from "@/components/About"
 import Map from '@/components/Map'
 import Bienvenida from '@/components/Bienvenida'
 import ServicesTitle from '@/components/ServicesTitle'
-import Services2 from '@/components/Services2'
+import Services3 from '@/components/Services3'
 
 function HomePage() {
   return (
@@ -13,7 +13,7 @@ function HomePage() {
       <Bienvenida />
       <About />
       <ServicesTitle />
-      <Services2 />
+      <Services3 />
       <Map />
     </>
   )

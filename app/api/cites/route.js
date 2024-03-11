@@ -16,6 +16,7 @@ export async function POST(request) {
             lastname,
             phone,
             mail,
+            
         }
     })
     return NextResponse.json(newCite)

@@ -1,4 +1,5 @@
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default [
     {
         imagen: "https://res.cloudinary.com/dbteftlej/image/upload/v1701101583/13_ezgfov.png",

@@ -16,6 +16,7 @@ async function fetchRehabservices() {
       <ServiceHero />
       <Services2 />
       <Services services={services} />
+      <serviceCards  />
       </>
     )
 }

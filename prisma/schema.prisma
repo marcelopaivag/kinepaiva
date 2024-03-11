@@ -11,9 +11,17 @@ datasource db {
 }
 
 model Cite {
-  id Int @id @default(autoincrement())
-  name String
+  id       Int    @id @default(autoincrement())
+  name     String
   lastname String
-  phone String
-  mail String @unique
+  phone    String
+  mail     String @unique
+}
+
+model Service {
+  id          Int    @id @default(autoincrement())
+  name        String
+  Description String
+  Definition  String
+  Image       String
 }

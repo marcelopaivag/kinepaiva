@@ -11,11 +11,11 @@ export const NavBar = () => {
                     <Link className="text-xl hover:text-slate-300" href="/">Kinesiología y Rehabilitación</Link>
                 </div>
                 <div className="flex space-x-3">
-                    <Link className='hover:text-slate-300' href="/">Inicio</Link>
-                    <Link className='hover:text-slate-300' href="/about">Acerca</Link>
-                    <Link className='hover:text-slate-300' href="/services">Servicios</Link>
-                    <Link className='hover:text-slate-300' href="/cites">Agenda tu cita</Link>
-                    <Link className='hover:text-slate-300' href="/blog">Blog</Link>
+                    <Link className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6" href="/">Inicio</Link>
+                    <Link className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6" href="/about">Acerca</Link>
+                    <Link className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6" href="/services">Servicios</Link>
+                    <Link className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6" href="/cites">Agenda tu cita</Link>
+                    <Link className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6" href="/blog">Blog</Link>
                 </div>
             </div>
         </nav>

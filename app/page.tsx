@@ -3,8 +3,9 @@ import Hero from '@/components/Hero'
 import About from "@/components/About"
 import Map from '@/components/Map'
 import Bienvenida from '@/components/Bienvenida'
-import ServicesTitle from '@/components/ServicesTitle'
 import Services3 from '@/components/Services3'
+import Services4 from '@/components/Services4'
+
 
 function HomePage() {
   return (
@@ -12,8 +13,8 @@ function HomePage() {
       <Hero />
       <Bienvenida />
       <About />
-      <ServicesTitle />
       <Services3 />
+      <Services4/>
       <Map />
     </>
   )

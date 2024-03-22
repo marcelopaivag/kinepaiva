@@ -1,5 +1,5 @@
 import blogData from "../blogData";
-import PostCard2 from "./PostCard2";
+import PostCard from "./PostCard";
 
 const Posts = () => {
     return (
@@ -14,7 +14,7 @@ const Posts = () => {
             </div>
             <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
                 {blogData.map((post, id) => (
-                    <PostCard2 key={id} {...post} />
+                    <PostCard key={id} {...post} />
                 ))}
             </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from '@/components/Hero'
+import HomeHero from '@/components/HomeHero'
 import Map from '@/components/Map'
 import Services4 from '@/components/Services4'
 import Testimonials from '@/components/Testimonials'
@@ -11,7 +11,7 @@ import Excercise from '@/components/Excercise'
 function HomePage() {
   return (
     <>
-      <Hero />
+      <HomeHero />
       <Wellcome/>
       <Services4/>
       <Excercise />

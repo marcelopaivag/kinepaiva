@@ -1,19 +1,9 @@
+import Wellcome from "@/components/Wellcome"
 
-"use client"
-import About from '@/components/About';
-import { useRouter } from 'next/navigation';
-import AboutHero from '@/components/AboutHero';
-import Map from '@/components/Map';
-
-const AboutPage = () => {
-  const router = useRouter()
+const page = () => {
   return (
-    <>
-      <AboutHero />
-      <About />
-      <Map />
-    </>
+    <Wellcome />
   )
 }
 
-export default AboutPage
+export default page

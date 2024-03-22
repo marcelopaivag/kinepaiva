@@ -1,20 +1,21 @@
 import React from 'react'
 import Hero from '@/components/Hero'
-import About from "@/components/About"
 import Map from '@/components/Map'
-import Bienvenida from '@/components/Bienvenida'
-import Services3 from '@/components/Services3'
 import Services4 from '@/components/Services4'
+import Testimonials from '@/components/Testimonials'
+import Wellcome from '@/components/Wellcome'
+import Excercise from '@/components/Excercise'
+
 
 
 function HomePage() {
   return (
     <>
       <Hero />
-      <Bienvenida />
-      <About />
-      <Services3 />
+      <Wellcome/>
       <Services4/>
+      <Excercise />
+      <Testimonials />
       <Map />
     </>
   )

@@ -1,6 +1,5 @@
-import Services from '@/components/Services'
-import Services2 from '@/components/Services2'
-import ServiceHero from '@/components/ServicesHero'
+import Services4 from '@/components/Services4'
+import Map from '@/components/Map'
 
 async function fetchRehabservices() {
     const res = await fetch("https://reqres.in/api/users")
@@ -13,10 +12,8 @@ async function fetchRehabservices() {
 
     return (
       <>
-      <ServiceHero />
-      <Services2 />
-      <Services services={services} />
-      <serviceCards  />
+      <Services4 /> {Services4}
+      <Map />
       </>
     )
 }

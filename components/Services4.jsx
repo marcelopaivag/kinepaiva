@@ -53,7 +53,7 @@ const Servicios = () => {
   return (
     <section className="bg-white dark:bg-gray-900">
       <div className="container px-6 py-10 mx-auto">
-      <h1 className="text-2xl font-semibold text-center text-gray-800 lg:text-3xl dark:text-white">
+        <h1 className="text-2xl font-semibold text-center text-gray-800 lg:text-3xl dark:text-white">
           Servicios de kinesiología y rehabilitación<br />
           optimiza tu recuperación y alivia el <span className="text-blue-500">dolor</span>
         </h1>

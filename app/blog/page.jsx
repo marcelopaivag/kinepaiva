@@ -1,5 +1,4 @@
-import BlogHero from '@/components/BlogHero'
-import PostPage from '../../components/PostPage'
+import Posts from '@/components/Posts'
 
 
 import React from 'react'
@@ -7,8 +6,7 @@ import React from 'react'
 const page = () => {
   return (
     <>
-    <BlogHero />
-    <PostPage />
+      <Posts />
     </>
   )
 }

@@ -12,8 +12,8 @@ function HomePage() {
   return (
     <>
       <HomeHero />
-      <Wellcome/>
-      <Services4/>
+      <Wellcome />
+      <Services4 />
       <Excercise />
       <Testimonials />
       <Map />

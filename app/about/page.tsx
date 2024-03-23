@@ -1,8 +1,12 @@
 import Wellcome from "@/components/Wellcome"
+import Map from "@/components/Map"
 
 const page = () => {
   return (
-    <Wellcome />
+    <>
+      <Wellcome />
+      <Map />
+    </>
   )
 }
 

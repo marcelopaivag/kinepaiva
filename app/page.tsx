@@ -6,8 +6,6 @@ import Testimonials from '@/components/Testimonials'
 import Wellcome from '@/components/Wellcome'
 import Excercise from '@/components/Excercise'
 
-
-
 function HomePage() {
   return (
     <>

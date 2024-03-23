@@ -32,7 +32,7 @@ const Excercise = () => {
                                 </span>
 
                                 <div className="mt-4 md:mx-4 md:mt-0">
-                                    <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">Osteoartritis, osteoporosis, dolor de espalda, artritis reumatoide.</h1>
+                                    <h1 className="text-xl font-semibold text-gray-700 dark:text-white">Osteoartritis, osteoporosis, dolor de espalda, artritis reumatoide.</h1>
                                 </div>
                             </div>
 
@@ -44,7 +44,7 @@ const Excercise = () => {
                                 </span>
 
                                 <div className="mt-4 md:mx-4 md:mt-0">
-                                    <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">Cualquier lesión deportiva como esguinces articulares, desgarros musculares y fracturas óseas.</h1>
+                                    <h1 className="text-xl font-semibold text-gray-700 dark:text-white">Cualquier lesión deportiva como esguinces articulares, desgarros musculares y fracturas óseas.</h1>
                                 </div>
                             </div>
 
@@ -57,12 +57,12 @@ const Excercise = () => {
                                 </span>
 
                                 <div className="mt-4 md:mx-4 md:mt-0">
-                                    <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">Antes y después de operaciones como Latarjet, pinzamientos de cadera, meniscectomías u injertos de LCA o prótesis articulares.</h1>
+                                    <h1 className="text-xl font-semibold text-gray-700 dark:text-white">Antes y después de operaciones como Latarjet, pinzamientos de cadera, meniscectomías u injertos de LCA o prótesis articulares.</h1>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="lg:flex lg:items-center lg:w-1/2 lg:justify-center">
+                        <div className="lg:flex lg:items-center lg:w-1/2 lg:justify-center mt-7">
                             <Image className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] rounded-full" src={gym} alt="" />
                         </div>
                     </div>
